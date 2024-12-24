@@ -10880,16 +10880,6 @@ section {
   height: auto; /* Maintain aspect ratio */
   border-radius: 8px; /* Optional: Add rounded corners */
 }
-.btn-blue{
-  background-color: #007bff; /* New background color (e.g., blue) */
-  color: #ffffff; /* Text color (e.g., white) */
-  border: none; /* Remove border (optional) */
-}
-
-.btn-blue:hover {
-  background-color: #0056b3; /* Darker shade for hover effect */
-  color: #ffffff; /* Keep text white on hover */
-}
 /* General Section Styling */
 .services-section {
   padding: 50px 20px;
@@ -11045,3 +11035,127 @@ section {
   height: auto; /* Maintain aspect ratio */
   border-radius: 8px; /* Optional: Add rounded corners */
 }
+#mainNav .navbar-nav {
+  margin: 0 auto; /* Centers the nav items */
+}
+/* Main Title Styling */
+.main-title {
+  font-family: 'Poppins', sans-serif; /* Clean, modern font */
+  font-size: 3.5rem; /* Large size to grab attention */
+  font-weight: bolder; /* Bold text for emphasis */
+  color: #2E8B57; /* Green color for a fresh and professional look */
+  text-transform: uppercase; /* Uppercase text for boldness */
+  letter-spacing: 4px; /* Spacing between letters for a stylish look */
+  text-align: center; /* Center text */
+  margin-bottom: 20px; /* Space below the title */
+  text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover Effect for Main Title */
+.main-title:hover {
+  color: #FF4500; /* Change to orange color on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+  cursor: pointer; /* Pointer cursor for interaction */
+}
+
+/* Title Subtitle Styling */
+.title-style {
+  font-family: 'Roboto', sans-serif; /* Clean, readable font */
+  font-size: 2.2rem; /* Smaller but prominent */
+  font-weight: 500; /* Slightly lighter for balance */
+  color: #1E90FF; /* Vibrant blue color to contrast the main title */
+  margin-bottom: 30px; /* Spacing between subtitle and the next section */
+  text-transform: capitalize; /* Capitalize each word */
+  letter-spacing: 2px; /* Slight spacing between letters */
+  text-align: center; /* Center text */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for soft emphasis */
+}
+
+/* Responsive Adjustments for Mobile */
+@media (max-width: 768px) {
+  .main-title {
+      font-size: 2.5rem; /* Slightly smaller for mobile */
+  }
+
+  .title-style {
+      font-size: 1.8rem; /* Adjust subtitle size for smaller screens */
+  }
+}
+
+
+
+
+/* Description Text Styling */
+.description-text {
+  font-size: 1.2rem; /* Slightly smaller than the title */
+  color: #333; /* Dark text for readability */
+  line-height: 1.6; /* Improved line spacing */
+  margin-bottom: 30px; /* Space before the button */
+  max-width: 800px; /* Limit the width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Button Styling */
+.btn-blue {
+  background-color: #1E90FF; /* Vibrant blue */
+  color: white; /* White text */
+  padding: 8px 16px; /* Button padding */
+  font-size: 14px; /* Font size for the button text */
+  border-radius: 30px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+  text-transform: uppercase; /* Uppercase button text */
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+/* Button Hover Effect */
+.btn-blue:hover {
+  background-color: #FF4500; /* Change to orange on hover */
+  transform: translateY(-5px); /* Slight lift on hover */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Button Focus Effect */
+.btn-blue:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(30, 144, 255, 0.4); /* Focus outline */
+}
+.our-title {
+  color: #0056b3;  /* Blue color for 'Our' */
+}
+
+.mission-title {
+  color: #ff6347;  /* Red color for 'Mission' */
+}
+
+.vision-title {
+  color: #32cd32;  /* Green color for 'Vision' */
+}
+
+/* Other styling for lead text and general appearance */
+.lead {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: justify;
+  line-height: 1.6;
+}
+.about-title {
+  color: #800080;  /* Purple color for 'Our' */
+}
+.us-title {
+  color: #0056b3;  /* Blue color for 'Our' */
+}
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+}
+ 

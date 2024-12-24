@@ -1,0 +1,71 @@
+/* Footer Styling */
+footer {
+    background-color: #212529;
+    color: rgba(255, 255, 255, 0.75);
+    padding: 1.5rem 0;
+}
+footer .contact, footer .email {
+    margin: 0;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.85);
+}
+footer .contact::before, footer .email::before {
+    margin-right: 5px;
+}
+footer .contact::before {
+    content: "\260E"; /* Telephone icon */
+}
+footer .email::before {
+    content: "\2709"; /* Envelope icon */
+}
+footer small {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+/* Responsive Spacing Adjustments */
+body {
+    padding-top: 4rem; /* Avoid content overlapping with the navbar */
+}
+
+@media (max-width: 768px) {
+    footer .contact, footer .email {
+        font-size: 0.8rem;
+    }
+    footer small {
+        font-size: 0.75rem;
+    }
+}
+
+/* Navbar Styling */
+.navbar-bright {
+    --bs-navbar-color: rgba(255, 255, 255, 0.9);
+    --bs-navbar-hover-color: #FFA500; /* Orange hover color */
+    --bs-navbar-disabled-color: rgba(200, 200, 200, 0.6);
+    --bs-navbar-active-color: #FF4500; /* Vibrant orange-red */
+}
+
+.navbar-bright .nav-link {
+    color: var(--bs-navbar-color);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-bright .nav-link:hover {
+    color: #fff;
+    background-color: var(--bs-navbar-hover-color);
+    border-radius: 4px;
+}
+
+.navbar-bright .nav-link.active {
+    color: var(--bs-navbar-active-color);
+    text-decoration: underline;
+}
+
+/* Gradient Background */
+.navbar-dark.bg-dark {
+    background: linear-gradient(90deg, #343a40, #495057);
+    border-bottom: 2px solid #FFA500;
+}

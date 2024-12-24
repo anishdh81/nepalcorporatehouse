@@ -1,3 +1,4 @@
+@extends('layouts.layout')
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="css/styles.css">

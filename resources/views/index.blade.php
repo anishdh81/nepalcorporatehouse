@@ -1,40 +1,17 @@
+@extends('layouts.layout')
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title> Nepal Corporate House</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-            <div class="container px-4">
-                <a class="navbar-brand" href="#page-top">Nepal Corporate House</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact-section">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
         <!-- Header-->
         <header class="header-with-image">
     <section id="home" class="d-flex">
-        <div class="text-content">
-            <h1 class="fw-bolder">Welcome to Nepal Corporate Consulting</h1>
-            <p class="lead">Empowering businesses with expert strategies for a dynamic world.</p>
-            <a class="btn btn-lg btn-blue" href="#services">Discover Our Services</a>
-        </div>
-        <div class="image-content">
+    <div class="text-content text-center">
+    <h1 class="fw-bolder main-title">Welcome to Nepal Corporate Consulting</h1>
+    <p class="lead title-style">Integrated Corporate & IT Services</p>
+
+<p class="lead description-text">Our goal is to meet your expectations and provide you the best solution. We have innovative and passionate team members dedicated to delivering quality service. We help you get your desired work efficiently. Connect with us today and move towards achieving Excellence.</p>
+    <a class="btn  btn-blue" href="#services">Discover Our Services</a>
+    <a class="btn  btn-blue" href="contact">Contact us</a>
+</div>
+ <div class="image-content">
             <img src="assets/innovation.jpg" alt="Corporate Office" class="header-image">
         </div>
     </section>
@@ -137,16 +114,6 @@
         </div>
     </div>
 </section>
-
-        <!-- Footer-->
-        <footer  id="contact-section"  class="footer">
-        <div class="container">
-        <div class="footer-content">
-            <p class="contact">Contact: +977 - 9851195803, +977 - 9849983259</p>
-            <p class="email">Email: info@nepalcorporatehouse.com</p>
-        </div>
-        </div>
-        </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
